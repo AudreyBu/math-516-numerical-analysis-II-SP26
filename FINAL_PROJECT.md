@@ -67,4 +67,5 @@ Use the integration module to calculate the total heat energy absorbed in Joules
     2.  Altitude $y(t)$ and velocity $v(t)$ over time.
     3.  Acceleration $a(t)$ over time.
     4.  Jerk $j(t)$ over time.
-* Answer the following question (no implementation needed): Assume the capsule loses a part of its heat shield at a certain time ($t=50$) resulting in an instant drop of the drag coefficient. What would you change to solve the same problem?
+* At the end of the project, answer the following question (no implementation needed):
+   * Assume the capsule loses a part of its heat shield at a certain time ($t=50$) resulting in an instant drop of the drag coefficient. What would you change to solve the same problem?
