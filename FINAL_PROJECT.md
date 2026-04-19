@@ -32,8 +32,8 @@ $$\frac{dv}{dt} = -g + \frac{1}{2m} \rho(y) A C_d(\alpha(t)) v^2$$
 * $v(0) = -2,000 \text{ m/s}$
 * Time interval: $t \in [0, 100] \text{ seconds}$
 
-### Experimental Drag Data
-You are provided the following data for the drag coefficient:
+### Drag Data:
+You are provided the following wind-tunnel data for the drag coefficient:
 * $\alpha$ (degrees): `[0, 10, 20, 30, 40]`
 * $C_d$ (dimensionless): `[0.25, 0.55, 0.95, 1.35, 1.60]`
 
@@ -67,3 +67,4 @@ Use the integration module to calculate the total heat energy absorbed in Joules
     2.  Altitude $y(t)$ and velocity $v(t)$ over time.
     3.  Acceleration $a(t)$ over time.
     4.  Jerk $j(t)$ over time.
+* Answer the following question (no implementation needed): Assume the capsule loses a part of its heat shield at a certain time ($t=50$) resulting in an instant drop of the drag coefficient. What would you change to solve the same problem?
